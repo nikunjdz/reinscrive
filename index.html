@@ -31,6 +31,39 @@
   .center-content {
     text-align: center !important;
   }
+  
+  /* Mobile responsive styles */
+  @media screen and (max-width: 768px) {
+    html, body {
+      padding: 10px !important;
+    }
+    
+    p, li, td, th, dd, blockquote, font, a {
+      font-size: 100% !important;
+    }
+    
+    table {
+      width: 100% !important;
+    }
+    
+    img[align="left"] {
+      float: none !important;
+      display: block !important;
+      margin: 0 auto 1em auto !important;
+      width: auto !important;
+      max-width: 100% !important;
+    }
+    
+    img {
+      max-width: 100% !important;
+      height: auto !important;
+    }
+    
+    .center-content img {
+      width: 100% !important;
+      max-width: 430px !important;
+    }
+  }
 </style>
 
 </HEAD>
